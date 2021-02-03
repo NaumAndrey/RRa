@@ -1,0 +1,150 @@
+*{ margin: 0 auto;}
+
+
+body {
+    margin-left: 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.heading {
+    margin-left: 225px;
+}
+
+.heading_1 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 34px;
+}
+
+.heading--2 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.string {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 160%;
+    margin-bottom: 40px;
+}
+
+.discription {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 15px;
+}
+
+.gallery__img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.gallery__img_2 {
+    margin-top: 35px;
+}
+
+.gallery__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+/*.gallery__img_2 {
+    margin-top: 25px;
+    width: 25px;
+    height: 25px;
+}*/
+
+.gallery__item--5{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+.gallery__item--6{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+.gallery__item--7{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+.gallery__item--8{
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+.gallery__item--9{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 7;
+    grid-row-end: 7;
+}
+
+.gallery__item--10{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 7;
+    grid-row-end: 7;
+}
+
+.gallery__item--11{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 7;
+    grid-row-end: 7;
+}
+
+.gallery__item--12{
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 7;
+    grid-row-end: 7;
+}
+
+a.knopka {
+    color: rgb(0, 0, 0); 
+    text-decoration: none; 
+    user-select: none; 
+    background: rgb(226, 226, 226); 
+    padding: .7em 1.5em; 
+    outline: none; 
+  } 
+a.knopka:hover { background: rgb(140, 238, 255); } 
+a.knopka:active { background: rgb(39, 155, 250); } 
+
+  .gallery__item--button {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 16;
+    grid-row-end: 16;
+}
